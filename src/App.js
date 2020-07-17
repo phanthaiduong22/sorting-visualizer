@@ -28,7 +28,6 @@ class App extends Component {
           let t = arr[j];
           arr[j] = arr[j + 1];
           arr[j + 1] = t;
-          await sleep(2000);
         }
       }
     }
